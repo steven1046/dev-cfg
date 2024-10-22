@@ -11,6 +11,10 @@ app:
     # max number of instances. defaults to 1 if min == 0, otherwise defaults to min
     # q: what's the overall limit?
     max: 2
+
+  # enable public endpoint
+  endpoints: public
+  
   resources:
     # max cpu, defaults to 1 cpu limit, half of that for min, min >= 1
     # q: what's the overall limit?
